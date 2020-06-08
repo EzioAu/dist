@@ -12,9 +12,6 @@ Environment=CLOUDFLARE_API_KEY=123sfadf
 
 ; Do not allow the process to be restarted in a tight loop. If the
 ; process fails to start, something critical needs to be fixed.
-StartLimitIntervalSec=14400
-StartLimitBurst=10
-
 ; User and group the process will run as.
 User=caddy
 Group=caddy
